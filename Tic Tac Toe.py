@@ -39,7 +39,7 @@ def tic_tac_toe():
                 return True
 
             if board[a[0]] == board[a[1]] == board[a[2]] == "O":
-                print("Player 2 Wins!!\n")
+                print("Player 2 wins!!\n")
                 print("Congratulations!\n")
                 return True
         for a in range(9):
